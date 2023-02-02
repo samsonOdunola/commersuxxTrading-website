@@ -1,0 +1,15 @@
+const express = require("express");
+const App = express();
+const cors = require("cors");
+require("dotenv").config();
+const port = process.env.PORT;
+const emailRouter = require("./Routes/email.route");
+
+App.use(cors());
+App.use(express.urlencoded({ extended: true, limit: "50mb" }));
+App.use(express.json({ limit: "50mb" }));
+App.use("/contact-us", emailRouter);
+
+App.listen(port, () => {
+  console.log("Server is running on port " + port);
+});
