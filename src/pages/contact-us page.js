@@ -22,7 +22,7 @@ const Contactus = () => {
 
   const sendMail = () => {
     setLoading(true);
-    let url = "http://localhost:4000/contact-us/sendmail";
+    let url = "https://grumpy-teal-bass.cyclic.app/contact-us/sendmail";
     let mailInfo = { fullName, emailAddress, message };
 
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailAddress)) {
