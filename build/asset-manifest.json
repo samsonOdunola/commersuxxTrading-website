@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91347511.css",
+    "main.js": "/static/js/main.1ceb4fd9.js",
+    "static/media/eduardo-soares-QsYXYSwV3NU-unsplash.jpg": "/static/media/eduardo-soares-QsYXYSwV3NU-unsplash.891eedb711d0dd0518ba.jpg",
+    "static/media/petrebels-VH-OpMRhFII-unsplash.jpg": "/static/media/petrebels-VH-OpMRhFII-unsplash.856bbcca43d7c2c7a3c2.jpg",
+    "static/media/barrett-ward-5WQJ_ejZ7y8-unsplash.jpg": "/static/media/barrett-ward-5WQJ_ejZ7y8-unsplash.daa4697b7613c5618280.jpg",
+    "static/media/nigel-tadyanehondo-GOD2mDNujuU-unsplash.jpg": "/static/media/nigel-tadyanehondo-GOD2mDNujuU-unsplash.78564613c631740fc107.jpg",
+    "static/media/milo.jpg": "/static/media/milo.e0ab58b8268a6063b427.jpg",
+    "static/media/loading, package, inventory, storage, warehouse, forklift, transport.png": "/static/media/loading, package, inventory, storage, warehouse, forklift, transport.9141f5faad5f56106c39.png",
+    "static/media/peakmilk.jpg": "/static/media/peakmilk.af8043a7ac834d3c58d9.jpg",
+    "index.html": "/index.html",
+    "main.91347511.css.map": "/static/css/main.91347511.css.map",
+    "main.1ceb4fd9.js.map": "/static/js/main.1ceb4fd9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91347511.css",
+    "static/js/main.1ceb4fd9.js"
+  ]
+}

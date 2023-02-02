@@ -3,7 +3,7 @@
 # dependencies
 
 node_modules/
-# /back_end
+/back_end
 /.pnp
 .pnp.js
 .env
@@ -13,7 +13,7 @@ node_modules/
 /coverage
 
 # production
-/build
+
 
 # misc
 .DS_Store
