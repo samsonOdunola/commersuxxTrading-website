@@ -52,6 +52,7 @@
     height: 60vh;
   }
   .formcarry-container {
+    width: 80vw;
     box-sizing: border-box;
     margin: 5vh auto 5vh auto;
   }
@@ -144,7 +145,26 @@
     font-size: 2vh;
     margin-bottom: 1vh;
   }
-  footer > div > h3 > span {
-    font-size: 2vh;
+  footer > div > p {
+    font-size: 1.5vh;
+  }
+  .What-we-offer-section > h3 {
+    font-size: 6vw;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+  }
+  .What-we-offer-section > .container {
+    display: block;
+    width: 100%;
+  }
+  .What-we-offer-section > .container > div {
+    margin-bottom: 5vh;
+  }
+  .What-we-offer-section > .container > div > p {
+    text-align: center;
+    color: white;
+    font-size: 5vw;
+    font-weight: 300;
+    text-transform: capitalize;
   }
 }

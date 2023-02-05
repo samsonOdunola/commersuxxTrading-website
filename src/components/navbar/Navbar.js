@@ -1,12 +1,22 @@
 import Hamburgermenu from "../hamburgerMenu/hamburgerMenu";
 import Menu from "../menu/Menu";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 const Navbar = ({ color, backgroundcolor, colorOnHover }) => {
   const isMenuOpened = useSelector((state) => state.states.isMenuOpened);
+  const navigate = useNavigate();
+  const navigateHome = () => {
+    navigate("/");
+  };
+
   return (
     <>
       <nav style={{ backgroundColor: backgroundcolor }}>
-        <div className="logo" style={{ color: `${color}` }}>
+        <div
+          onClick={navigateHome}
+          className="logo"
+          style={{ color: `${color}` }}
+        >
           commersuxx<b>Trading</b>
         </div>
         <Hamburgermenu backgroundColor={color} />
