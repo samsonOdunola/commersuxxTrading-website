@@ -1,9 +1,13 @@
 name: Build and Deploy to Azure Web app
 
 on:
+  pull_request:
+    branches:
+      - master
   push:
     branches:
-      - live_testing
+      - 'feature/*'
+      - 'fix/*'
 
 env:
   AZURE_WEBAPP_NAME: reactAppazure # set this to your application's name
