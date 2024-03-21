@@ -25,7 +25,7 @@ const Contactus = () => {
     let url = "https://grumpy-teal-bass.cyclic.app/contact-us/sendmail";
     let mailInfo = { fullName, emailAddress, message };
 
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailAddress)) {
+    if (^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$.test(emailAddress)) {
       if (message !== "") {
         axios
           .post(url, mailInfo)
