@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Navbar from "../components/navbar/Navbar";
 import Carosel from "../components/courasel/carosel";
 import { Link } from "react-router-dom";

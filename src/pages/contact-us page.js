@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+
 import Navbar from "../components/navbar/Navbar";
 import { useDispatch } from "react-redux";
 import { useEffect, useState } from "react";
@@ -13,6 +15,7 @@ const Contactus = () => {
   const [response, setResponse] = useState(true);
   const [resMessage, setResMessage] = useState("");
   const [loading, setLoading] = useState(false);
+  const regex = /^w+([.-]?\w+)*@\w+([.-]?\w+)*(\.w{2,3})+$/;
 
   useEffect(() => {
     setTimeout(() => {
@@ -25,7 +28,7 @@ const Contactus = () => {
     let url = "https://grumpy-teal-bass.cyclic.app/contact-us/sendmail";
     let mailInfo = { fullName, emailAddress, message };
 
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(emailAddress)) {
+    if (regex.test(emailAddress)) {
       if (message !== "") {
         axios
           .post(url, mailInfo)
